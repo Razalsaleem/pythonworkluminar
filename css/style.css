@@ -1,0 +1,33 @@
+/* tagname|classname|id*/
+body {
+    background-color:black;
+
+}
+
+h1{
+    color: aqua;
+}
+
+.item{
+    color: blue;
+}
+
+.item2{
+    color: bisque;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+.item3{
+    color: brown;
+}
+.item4{
+    color: blueviolet;
+}
+
+/* .main-head h1{
+    color: chartreuse;
+} */
+
+.main-head h1:nth-child(3){
+    color: chartreuse;
+}
